@@ -1,0 +1,254 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ .top_hero {
+   min-height: 600px !important;
+ }
+ .hero_top_parallax::after {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 100%;
+     background: rgba(6, 6, 6, 0.7);
+ }
+ .hero_title {
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+.hero_sub_text  {
+  letter-spacing: 2px;
+}
+.hero_btn {
+  margin-top: 25px;
+}
+
+#tool_section {
+    background: #ececec;
+    padding: 3em 0;
+    color: #3e3e3e;
+}
+#tool_section ul {
+    line-height: 2;
+    font-size: 1.1em;
+}
+.tool_images {
+    margin-top: 5em;
+}
+.tool_image h5 {
+    font-size: 11.5px;
+    color: gray;
+    text-align: center;
+    margin-top: 0;
+}
+
+.section_title {
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    color: #3e3e3e;
+}
+.section_subtitle {
+    margin-top: 5px;
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #8a8a8a;
+}
+ul.tabs {
+  margin: 3em 0;
+  padding-bottom: 5em;
+}
+.tabs li a{
+  line-height: 2;
+  height: 80px !important;
+}
+.tabs .indicator {
+    background-color: #29b6f6 !important;
+}
+#project_tabs .section_subtitle{
+  font-size: 15px;
+  line-height: 1.5;
+  margin-top: 1em;
+}
+
+#video_work {
+  min-height: 800px;
+}
+#video_work .video-container {
+  margin-bottom: 20px;
+}
+#video_work .card-content {
+    padding-top: 0;
+}
+#video_work .card-content .card-title {
+    font-size: 22px;
+}
+#web_dev .card {
+  padding: 5px !important;
+}
+#web_dev .card-content h6, #video_work .card-content h6 {
+    color: #6b6b6b;
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+#web_dev .card-reveal .card-title {
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+#web_dev .card-reveal h6 {
+    color: gray;
+    font-size: 13px;
+}
+.card-reveal p {
+    margin-top: 2.5em;
+    line-height: 2;
+    color: #585858;
+}
+
+#info_section {
+    background: #7b7b7b;
+    padding: 3em 0;
+    color: #fff;
+}
+#info_section h2 {
+  color: #fff;
+}
+#info_section a {
+    color: #acd0e2;
+    font-size: 1.3em;
+    border-bottom: 1px solid;
+}
+#info_section img {
+    margin-top: 2em;
+}
+
+#experience_section {
+    background: #ececec;
+    padding: 3em 0;
+    color: #3e3e3e;
+}
+
+.exp_section_title {
+    margin: 5em 0 3em 0;
+}
+
+.exp_title {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+#experience_section p {
+    padding-top: 10px;
+}
+#experience_section .exp_subtitle {
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #6d6d6d;
+}
+/* label color */
+ .input-field label {
+   color: #fff;
+ }
+ /* label focus color */
+ .input-field input[type=text]:focus + label {
+   color: #fff;
+ }
+ /* label underline focus color */
+ .input-field input[type=text]:focus {
+   border-bottom: 1px solid #fff;
+   box-shadow: 0 1px 0 0 #fff;
+ }
+ /* valid color */
+ .input-field input[type=text].valid {
+   border-bottom: 1px solid #fff;
+   box-shadow: 0 1px 0 0 #fff;
+ }
+ /* invalid color */
+ .input-field input[type=text].invalid {
+   border-bottom: 1px solid #fff;
+   box-shadow: 0 1px 0 0 #fff;
+ }
+ /* icon prefix focus color */
+ .input-field .prefix.active {
+   color: #fff;
+ }
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+  border-bottom: 1px solid #fff
+}
+::-webkit-input-placeholder {
+   color: gray;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: gray;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: gray;
+}
+
+:-ms-input-placeholder {
+   color: gray;
+}
+label {
+  font-size: 25px !important;
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
