@@ -183,9 +183,14 @@ ul.tabs {
  .input-field .prefix.active {
    color: #fff;
  }
-input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], input[type=textarea], textarea.materialize-textarea {
   border-bottom: 1px solid #fff
 }
+input[type=textarea]{
+height: 200px;
+    border: 1px solid #fff !important;
+    color: #fff;
+  }
 ::-webkit-input-placeholder {
    color: gray;
 }
